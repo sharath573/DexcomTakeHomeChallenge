@@ -1,0 +1,1 @@
+Add native applications before triggering execution

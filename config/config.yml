@@ -1,0 +1,8 @@
+appium:
+  explicit_timeout: 5
+  max_swipe: 8
+  new_command_timeout: "600"
+  ios:
+    app: "/native_application/EventHistoryChallenge.app"
+key_events:
+  enter: '66'

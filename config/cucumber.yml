@@ -1,0 +1,6 @@
+<% timestamp = Time.now.strftime("%d-%m-%Y_%H-%M-%S") %>
+<% output_format = 'cucumber_report/' %>
+
+default: -r support -r step_definitions -r extent_report -r native_application\
+
+EventHistoryChallenge-ios: --color -r features -r support -r step_definitions -r extent_report PLATFORM=ios PRODUCT=EventHistoryChallenge TARGET=development
